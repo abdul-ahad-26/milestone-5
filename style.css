@@ -61,8 +61,7 @@ textarea {
   border: none;
 }
 
-.submit,
-.toggle-button {
+.submit{
   display: block;
   margin: 10px auto;
   padding: 10px 20px;
@@ -73,9 +72,7 @@ textarea {
   border-radius: 5px;
   width: 50%;
 }
-.toggle-button {
-  background-color: #ffb400;
-}
+
 .profilePicture {
   width: 190px;
   height: 200px;
@@ -93,14 +90,13 @@ textarea {
 }
 
 #resumeOutput{
+  max-width: 800px; 
   margin: 0 auto;
   margin-top: 20px;
-  width: 40vw;
-
+  padding: 20px;
   border-radius: 6px;
   background-color: #fff;
   box-shadow: 0 4px 8px #fffaff;
-  padding: 6px 16px;
   border: 1px solid #f3e7e7;
 }
 
@@ -133,3 +129,5 @@ textarea {
 
   
 }
+
+
