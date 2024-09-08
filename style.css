@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  color: #303036;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.05);
+  font-family: "Poppins", sans-serif;
+}
+.text-center {
+  text-align: center;
+}
+
+#resumeForm {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 40vw;
+
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px #fffaff;
+  padding: 6px 16px;
+  border: 1px solid #f3e7e7;
+}
+form fieldset {
+  margin-top: 5px;
+
+  display: flex;
+  flex-direction: column;
+  padding: 12px 16px;
+  border-radius: 6px;
+  border-color: #ffffff;
+}
+
+legend {
+  margin-left: 20px;
+  font-weight: bold;
+}
+label {
+  margin-top: 10px;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 2px 4px;
+  height: 35px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 2px;
+  border: none; /* Remove all borders */
+  border-bottom: 0.1px solid gray; /* Add bottom border */
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+textarea {
+  resize: vertical;
+  height: 150px;
+  border: none;
+}
+
+.submit,
+.toggle-button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: rgb(32, 172, 165);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 50%;
+}
+.toggle-button {
+  background-color: #ffb400;
+}
+.profilePicture {
+  width: 190px;
+  height: 200px;
+  display: block;
+  margin: 0 auto; /* Center horizontally */
+  border-radius: 50%;
+  object-fit: cover;
+  border: 0.1px solid #bcafaf;
+}
+
+.tag-line {
+  margin-top: 4px;
+  color: rgb(32, 172, 165);
+  text-align: center;
+}
+
+#resumeOutput{
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 40vw;
+
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px #fffaff;
+  padding: 6px 16px;
+  border: 1px solid #f3e7e7;
+}
+
+#resumeOutput h3{
+   
+  margin: 6px 0;
+  
+}
+
+#resumeOutput p{
+   
+  margin: 8px 0;
+  
+}
+
+#resumeOutput hr{
+   
+  margin-top: 40px ;
+  
+}
+#resumeOutput> hr{
+   
+  margin-top: 8px ;
+  
+}
+
+#resumeOutput h2{
+   
+  margin-top: 8px ;
+
+  
+}

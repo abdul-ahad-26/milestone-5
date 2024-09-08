@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Catcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="text-center">Job Catcher</h1>
+    <h4 class="tag-line">An Interactive Resume Builder</h4>
+
+    <form id="resumeForm">
+        <fieldset class="personal-information">
+            <legend>Personal Information</legend>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" required placeholder="Username">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required placeholder="Name">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required placeholder="Email">
+            <label for="contact">Contact:</label>
+            <input type="text" name="contact" id="contact" required placeholder="Contact">
+        </fieldset>
+
+        <fieldset class="education">
+            <legend>Education</legend>
+            <label for="education">Education:</label>
+            <textarea name="education" required id="education"></textarea>
+        </fieldset>
+
+        <fieldset class="skills">
+            <legend>Skills</legend>
+            <label for="skills">Skills:</label>
+            <textarea name="skills" required id="skills"></textarea>
+        </fieldset>
+
+        <fieldset class="work-experience">
+            <legend>Work Experience</legend>
+            <label for="workExperience">Work Experience:</label>
+            <textarea name="workExperience" required id="workExperience"></textarea>
+        </fieldset>
+
+        <button class="submit" type="submit">Generate Resume</button>
+    </form>
+
+    <div id="resumeOutput">
+        <!-- dynamically populated with user input -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
